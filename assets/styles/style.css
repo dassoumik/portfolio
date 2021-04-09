@@ -147,7 +147,7 @@ footer {
 
 div.fixed {
     position: -webkit-sticky; /* Safari */
-    position: fixed;
+    position: sticky;
     bottom: 0;
     right: 54.5%;
     
@@ -159,8 +159,8 @@ div.fixed {
 
 .bottom-fixed {
     position: relative;
-    top: -140px;
-    right: -140px;
+    top: -100px;
+    right: -100px;
 }
 
 /* .main-body {
