@@ -210,3 +210,13 @@ div.fixed {
         right: 67.0%;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    div.fixed {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        bottom: 0;
+        right: 60.0%;
+    }
+}
