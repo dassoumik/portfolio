@@ -111,6 +111,10 @@ div.fixed {
     right: -100px;
 }
 
+.phone:hover .visibility-none {
+    visibility: visible;
+}
+
 @media screen and (max-width: 500px) {
     div.fixed {
         position: -webkit-sticky; /* Safari */
